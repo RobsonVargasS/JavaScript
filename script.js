@@ -133,7 +133,7 @@ if (birthyear <= 2000) {
     century = 21
 }
 console.log(century)
-*/
+*
 //Type conversion
 const inputYear = "1991"
 console.log(inputYear + 18)
@@ -166,3 +166,98 @@ if (money) {
     console.log("you should get a job")
 }
 
+const age = 16
+if (age === 18) console.log("you just became a adult(strict)")
+if (age == 18) console.log("You just became an adult (loose)")
+
+const favorite = prompt("Whats your favorite number?")
+console.log(favorite)
+
+if (favorite === 23) {
+    console.log('Coll number 23')
+} else if (favorite === 7) {
+    console.log('7 is also a cool number')
+}
+else {
+    console.log("not a 23 or 7")
+}
+
+if (favorite !== 23)
+    console.log("Why no 23?")
+
+*/
+// const hasDriversLicense = true;
+// const hasGoodVision = true
+
+// console.log(hasDriversLicense && hasGoodVision)
+// console.log(hasDriversLicense || hasGoodVision)
+// console.log(!hasDriversLicense)
+
+// // const shouldDrive = hasDriversLicense && hasGoodVision;
+// // if (shouldDrive) {
+// //     console.log('sara is able to drive')
+
+// // } else {
+// //     console.log('someone else should drive')
+// // }
+
+// const isTired = false
+// console.log(hasDriversLicense && hasGoodVision && isTired)
+
+// const shouldDrive = hasDriversLicense && hasGoodVision && !isTired;
+// if (shouldDrive) {
+//     console.log('sara is able to drive')
+
+// } else {
+//     console.log('someone else should drive')
+// }
+
+// const day = "monday"
+
+// switch (day) {
+//     case 'monday':
+//         console.log('Plan my course');
+//         console.log('Go to coding meetup');
+//         break;
+//     case 'tuesday':
+//         console.log("do other thing");
+//         break;
+//     case 'wednesday':
+//     case 'thursday':
+//         console.log('write code exemple');
+//         break;
+//     case 'friday':
+//         console.log('recording videos');
+//         break;
+//     case 'saturday':
+//     case 'sunday':
+//         console.log('rest');
+//         break;
+//     default:
+//         console.log('not a valid day');
+//         break;
+
+// }
+
+
+// If Else Statement in one line
+
+const age = 20
+// age >= 18 ? console.log('i like to drink wine') :
+//     console.log('I like to drink water');
+
+
+const drink = age >= 18 ? 'wine' : 'water';
+console.log(drink);
+
+// const age = 18 
+
+// Exemple if was in normal If Else statemant
+
+
+if (age >= 18) {
+    console.log('wine')
+}
+else {
+    console.log('water')
+}
