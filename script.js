@@ -242,12 +242,12 @@ if (favorite !== 23)
 
 // If Else Statement in one line
 
-const age = 20
+const age = prompt("What is your age?")
 // age >= 18 ? console.log('i like to drink wine') :
 //     console.log('I like to drink water');
 
 
-const drink = age >= 18 ? 'wine' : 'water';
+const drink = age >= 18 ? 'you can drink wine' : 'you can drink water';
 console.log(drink);
 
 // const age = 18 
@@ -262,6 +262,13 @@ else {
     console.log('water')
 }
 
-// One more way
+// // One more way
 
 console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
+
+
+const bill = 275
+const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.20
+const total = bill + tip
+console.log(`Your bill is ${bill}, your tip is ${bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.20}, your total is ${total} `)
+
